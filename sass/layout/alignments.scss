@@ -1,0 +1,50 @@
+/* Block Alignments */
+.site-content {
+	overflow: hidden;
+}
+
+.wp-block-post-content > .alignwide,
+.wp-block-post-content > .alignfull {
+	margin-left: -4vw;
+	margin-right: -4vw;
+	width: auto;
+}
+
+.wp-block-post-content > .alignfull {
+	max-width: 1360px !important;
+}
+
+@media only screen and (min-width: 800px) {
+	.wp-block-post-content > .alignwide,
+	.wp-block-post-content > .alignfull {
+		margin-left: calc(-100vw / 2 + 100% / 2);
+		margin-right: calc(-100vw / 2 + 100% / 2);
+	}
+}
+
+@media only screen and (min-width: 960px) {
+	.wp-block-post-content > .alignwide {
+		margin-left: -60px;
+		margin-right: -60px;
+	}
+
+	.page-template-page-fullwidth .wp-block-post-content > .alignwide,
+	.page-template-page-no-title-fullwidth .wp-block-post-content > .alignwide {
+		margin-left: -2vw;
+		margin-right: -2vw;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	.wp-block-post-content > .alignwide {
+		margin-left: -150px;
+		margin-right: -150px;
+	}
+}
+
+@media only screen and (min-width: 1360px) {
+	.wp-block-post-content > .alignfull {
+		margin-left: calc(-1360px / 2 + 100% / 2);
+		margin-right: calc(-1360px / 2 + 100% / 2);
+	}
+}

@@ -1,0 +1,23 @@
+/* Post Excerpt Block */
+.wp-block-post-excerpt {
+	.wp-block-post-excerpt__more-text {
+		margin-bottom: 0;
+
+		.wp-block-post-excerpt__more-link {
+			margin: 0;
+			padding: calc(0.6rem + 2px) calc(1rem + 2px);
+			border: none;
+			color: var(--wp--preset--color--white);
+			background-color: var(--wp--preset--color--secondary);
+			text-decoration: none;
+			font-size: var(--wp--custom--typography--font-size--button);
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: var(--wp--preset--color--white);
+				background-color: var(--wp--preset--color--primary);
+			}
+		}
+	}
+}

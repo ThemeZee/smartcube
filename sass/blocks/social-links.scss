@@ -1,0 +1,7 @@
+.wp-block-social-links.is-style-logos-only {
+	&:not(.has-icon-color) {
+		.wp-block-social-link {
+			color: currentColor;
+		}
+	}
+}
