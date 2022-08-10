@@ -1,8 +1,8 @@
 /* Main Navigation */
 .is-style-main-navigation {
 	width: 100%;
-	border-top: 1px solid;
-	border-color: var(--wp--preset--color--background-accent);
+	border-top: 1px solid currentColor;
+	border-bottom: 1px solid currentColor;
 
 	.wp-block-navigation__responsive-container-open {
 		padding: 1rem 0.5rem;
@@ -10,52 +10,64 @@
 
 	.wp-block-navigation__responsive-container:not(.is-menu-open) {
 		.wp-block-navigation__container {
-			gap: 0 1.25rem;
+			gap: 0;
 
 			> .wp-block-navigation-item {
+				padding: 0 0.75rem;
+				border-right: 1px solid currentColor;
+
 				> .wp-block-navigation-item__content {
-					margin-top: -1px;
-					padding: 1rem 0.5rem 1.25rem;
-					border-top: 5px solid transparent;
+					padding: 0.75rem 0.5rem;
 				}
 
 				.wp-block-navigation__submenu-icon {
-					margin-left: 0;
-					margin-top: 0;
-					width: 14px;
-					height: 14px;
+					margin-top: 2px;
+					margin-left: -0.2rem;
+					margin-right: 0.5rem;
+					width: 12px;
+					height: 12px;
 				}
 
-				.wp-block-navigation-item__content,
-				.wp-block-navigation__submenu-icon {
-					&:hover,
-					&:focus,
-					&:active {
-						color: var(--wp--preset--color--secondary);
-					}
+				&:hover,
+				&:focus,
+				&:active {
+					color: var(--wp--preset--color--white) !important;
+					background-color: var(--wp--preset--color--dark-gray) !important;
 				}
 
 				&.current-menu-item {
 					> .wp-block-navigation-item__content {
-						border-color: currentColor;
+						text-decoration: underline;
 					}
 				}
 
+				> .wp-block-navigation__submenu-container {
+					border-top: 1px solid;
+					border-color: var(--wp--preset--color--white);
+				}
+
 				.wp-block-navigation__submenu-container {
-					padding: 0.5rem;
 					font-size: var(--wp--preset--font-size--small);
-					min-width: 280px !important;
-					border: 1px solid;
-					border-color: var(--wp--preset--color--background-accent);
-					border-top: 4px solid currentColor;
+					min-width: 250px !important;
 
 					.wp-block-navigation-item {
 						.wp-block-navigation-item__content {
-							padding: 1rem;
+							padding: 0.5rem 1rem;
 						}
 
 						.wp-block-navigation__submenu-icon {
-							margin-right: 0.5rem;
+							position: absolute;
+							margin: 0;
+							right: 0.5rem;
+							background-color: transparent !important;
+						}
+
+						&:hover,
+						&:focus,
+						&:active {
+							> .wp-block-navigation-item__content {
+								background-color: rgba(255, 255, 255, 0.15) !important;
+							}
 						}
 					}
 				}
