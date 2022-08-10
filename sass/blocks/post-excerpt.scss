@@ -8,7 +8,7 @@
 			padding: calc(0.6rem + 2px) calc(1rem + 2px);
 			border: none;
 			color: var(--wp--preset--color--white);
-			background-color: var(--wp--preset--color--secondary);
+			background-color: var(--wp--preset--color--primary);
 			text-decoration: none;
 			font-size: var(--wp--custom--typography--font-size--button);
 
@@ -16,7 +16,7 @@
 			&:focus,
 			&:active {
 				color: var(--wp--preset--color--white);
-				background-color: var(--wp--preset--color--primary);
+				background-color: var(--wp--preset--color--secondary);
 			}
 		}
 	}

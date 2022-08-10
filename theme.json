@@ -66,12 +66,12 @@
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#0890d0",
+					"color": "#004488",
 					"name": "Primary"
 				},
 				{
 					"slug": "secondary",
-					"color": "#0068a0",
+					"color": "#1c60a4",
 					"name": "Secondary"
 				},
 				{
@@ -201,7 +201,7 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--secondary)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--white)"
 				},
 				"typography": {

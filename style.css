@@ -249,7 +249,7 @@ input[type="submit"] {
 	padding: calc(0.75rem + 2px) calc(1.25rem + 2px);
 	border: none;
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--secondary);
+	background-color: var(--wp--preset--color--primary);
 	text-decoration: none;
 	font-weight: normal;
 	font-size: var(--wp--preset--font-size--normal);
@@ -266,7 +266,7 @@ input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--secondary);
 }
 
 input[type="text"],
@@ -422,7 +422,6 @@ Remove CSS when 6.0 is released. */
 /* Post Title Block */
 .wp-block-post-title a {
 	text-decoration: none;
-	color: currentColor;
 }
 
 .wp-block-post-title a:hover, .wp-block-post-title a:focus, .wp-block-post-title a:active {
@@ -445,14 +444,14 @@ Remove CSS when 6.0 is released. */
 	padding: calc(0.6rem + 2px) calc(1rem + 2px);
 	border: none;
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--secondary);
+	background-color: var(--wp--preset--color--primary);
 	text-decoration: none;
 	font-size: var(--wp--custom--typography--font-size--button);
 }
 
 .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:hover, .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:focus, .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:active {
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--secondary);
 }
 
 /* Query Pagination Block */
@@ -498,7 +497,7 @@ Remove CSS when 6.0 is released. */
 .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-background):not(.has-text-color):hover,
 .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-background):not(.has-text-color):active {
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--primary);
+	background-color: var(--wp--preset--color--secondary);
 	text-decoration: none;
 }
 
