@@ -29,7 +29,7 @@
 				<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"4vw"}}}} -->
 				<div class="wp-block-group" style="margin-bottom:4vw">
 
-					<!-- wp:post-terms {"term":"category","className":"is-style-flip-link-hover"} /-->
+					<!-- wp:post-terms {"term":"category"} /-->
 
 					<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"x-large"} /-->
 

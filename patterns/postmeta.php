@@ -19,7 +19,7 @@
 	<p>–</p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:post-date {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}},"className":"is-style-flip-link-hover"} /-->
+	<!-- wp:post-date {"isLink":true,"style":{"elements":{"link":{"color":{"text":"var:preset|color|gray"}}}}} /-->
 
 </div>
 <!-- /wp:group -->

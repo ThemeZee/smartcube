@@ -74,6 +74,39 @@ a:active {
 	outline: 0;
 }
 
+/* Flip link hover for certain blocks */
+.wp-block-archives a,
+.wp-block-categories a,
+.wp-block-latest-posts a,
+.wp-block-page-list a,
+.wp-block-tag-cloud a,
+.wp-block-post-date a,
+.wp-block-post-terms a {
+	text-decoration: none;
+}
+
+.wp-block-archives a:hover, .wp-block-archives a:focus, .wp-block-archives a:active,
+.wp-block-categories a:hover,
+.wp-block-categories a:focus,
+.wp-block-categories a:active,
+.wp-block-latest-posts a:hover,
+.wp-block-latest-posts a:focus,
+.wp-block-latest-posts a:active,
+.wp-block-page-list a:hover,
+.wp-block-page-list a:focus,
+.wp-block-page-list a:active,
+.wp-block-tag-cloud a:hover,
+.wp-block-tag-cloud a:focus,
+.wp-block-tag-cloud a:active,
+.wp-block-post-date a:hover,
+.wp-block-post-date a:focus,
+.wp-block-post-date a:active,
+.wp-block-post-terms a:hover,
+.wp-block-post-terms a:focus,
+.wp-block-post-terms a:active {
+	text-decoration: underline;
+}
+
 hr {
 	margin-top: var(--wp--custom--spacing--elements);
 	margin-bottom: var(--wp--custom--spacing--elements);
@@ -758,13 +791,4 @@ textarea {
 	padding: 0.75rem 1rem;
 	border: 1px solid transparent;
 	box-shadow: inset 0 0 0 1px currentColor;
-}
-
-/* Flip Link Hover */
-.is-style-flip-link-hover a {
-	text-decoration: none;
-}
-
-.is-style-flip-link-hover a:hover, .is-style-flip-link-hover a:focus, .is-style-flip-link-hover a:active {
-	text-decoration: underline;
 }

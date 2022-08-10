@@ -17,7 +17,7 @@
 
 			<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
 
-			<!-- wp:post-terms {"term":"category","className":"is-style-flip-link-hover"} /-->
+			<!-- wp:post-terms {"term":"category"} /-->
 
 			<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"x-large"} /-->
 
