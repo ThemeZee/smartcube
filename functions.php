@@ -182,6 +182,13 @@ function smartcube_register_block_styles() {
 		'style_handle' => 'smartcube-stylesheet',
 	) );
 
+	// Register Sidebar Title block style.
+	register_block_style( 'core/heading', array(
+		'name'         => 'sidebar-title',
+		'label'        => esc_html__( 'Sidebar Title', 'smartcube' ),
+		'style_handle' => 'smartcube-stylesheet',
+	) );
+
 	// Register Flip Link Hover block style.
 	$link_hover_style = array(
 		'name'         => 'flip-link-hover',
