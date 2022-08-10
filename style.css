@@ -266,7 +266,7 @@ input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--secondary);
+	background-color: var(--wp--preset--color--dark-gray);
 }
 
 input[type="text"],
@@ -399,7 +399,7 @@ Remove CSS when 6.0 is released. */
 }
 
 .wp-block-site-title a:hover, .wp-block-site-title a:focus, .wp-block-site-title a:active {
-	color: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--dark-gray);
 }
 
 /* Navigation Block */
@@ -425,7 +425,7 @@ Remove CSS when 6.0 is released. */
 }
 
 .wp-block-post-title a:hover, .wp-block-post-title a:focus, .wp-block-post-title a:active {
-	color: var(--wp--preset--color--secondary);
+	color: var(--wp--preset--color--dark-gray);
 }
 
 /* Post Author Block */
@@ -451,7 +451,7 @@ Remove CSS when 6.0 is released. */
 
 .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:hover, .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:focus, .wp-block-post-excerpt .wp-block-post-excerpt__more-text .wp-block-post-excerpt__more-link:active {
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--secondary);
+	background-color: var(--wp--preset--color--dark-gray);
 }
 
 /* Query Pagination Block */
@@ -497,7 +497,7 @@ Remove CSS when 6.0 is released. */
 .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-background):not(.has-text-color):hover,
 .wp-block-button:not(.is-style-outline) .wp-block-button__link:not(.has-background):not(.has-text-color):active {
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--secondary);
+	background-color: var(--wp--preset--color--dark-gray);
 	text-decoration: none;
 }
 

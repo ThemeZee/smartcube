@@ -71,7 +71,7 @@
 				},
 				{
 					"slug": "secondary",
-					"color": "#1c60a4",
+					"color": "#266aae",
 					"name": "Secondary"
 				},
 				{
@@ -96,7 +96,7 @@
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#1e1e1e",
+					"color": "#303030",
 					"name": "Dark Gray"
 				}
 			]
