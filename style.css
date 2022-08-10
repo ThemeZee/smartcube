@@ -77,7 +77,7 @@ a:active {
 hr {
 	margin-top: var(--wp--custom--spacing--elements);
 	margin-bottom: var(--wp--custom--spacing--elements);
-	height: 1px;
+	height: 4px;
 	border: none;
 	background-color: currentColor;
 	box-sizing: content-box;
@@ -628,7 +628,7 @@ Remove CSS when 6.0 is released. */
 	margin-right: auto;
 	max-width: 80px;
 	width: 80px;
-	height: 4px;
+	height: 6px;
 }
 
 /*--------------------------------------------------------------
