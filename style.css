@@ -308,16 +308,6 @@ textarea {
 	border-bottom: 1px solid;
 }
 
-/* Block Gap option for columns not yet supported in 5.9.
-Remove CSS when 6.0 is released. */
-.site-content > .wp-block-columns {
-	gap: 4vw;
-}
-
-.site-content > .wp-block-columns > .wp-block-column {
-	margin-left: 0 !important;
-}
-
 /* Change breakproint of main sidebar layout */
 @media (max-width: 880px) {
 	.site-content > .wp-block-columns:not(.is-not-stacked-on-mobile) {
