@@ -12,8 +12,8 @@
 
 	<!-- wp:post-template -->
 
-		<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"4vw"}}}} -->
-		<div class="wp-block-group" style="margin-bottom:4vw">
+		<!-- wp:group {"style":{"spacing":{"margin":{"bottom":"1.5vw"},"padding":{"top":"0.5rem","right":"0.5rem","left":"0.5rem"},"blockGap":"1.5vw"}}} -->
+		<div class="wp-block-group" style="margin-bottom:1.5vw;padding-top:0.5rem;padding-right:0.5rem;padding-left:0.5rem">
 
 			<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0px"}}}} /-->
 

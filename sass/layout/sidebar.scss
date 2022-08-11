@@ -1,3 +1,8 @@
+/* All widgets should be 100% width */
+.sidebar.wp-block-group {
+	align-items: stretch;
+}
+
 /* Change breakproint of main sidebar layout */
 @media (max-width: 880px) {
 	.site-content > .wp-block-columns {

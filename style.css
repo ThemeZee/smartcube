@@ -341,6 +341,11 @@ textarea {
 	border-bottom: 1px solid;
 }
 
+/* All widgets should be 100% width */
+.sidebar.wp-block-group {
+	align-items: stretch;
+}
+
 /* Change breakproint of main sidebar layout */
 @media (max-width: 880px) {
 	.site-content > .wp-block-columns:not(.is-not-stacked-on-mobile) {
@@ -441,6 +446,11 @@ textarea {
 /*--------------------------------------------------------------
 # - Query Blocks
 --------------------------------------------------------------*/
+
+/* Post Excerpt Block */
+.wp-block-post-template li.wp-block-post {
+	margin: 0;
+}
 
 /* Post Title Block */
 .wp-block-post-title a {
