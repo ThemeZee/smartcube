@@ -165,12 +165,17 @@
 					"name": "Extra Large"
 				},
 				{
-					"size": "clamp(24px, calc(1rem + 1.67vw), 32px)",
+					"size": "clamp(24px, calc(1rem + 1.67vw), 28px)",
 					"slug": "xx-large",
 					"name": "Extra Extra Large"
 				},
 				{
-					"size": "clamp(28px, calc(1rem + 2.5vw), 40px)",
+					"size": "clamp(28px, calc(1rem + 2.5vw), 34px)",
+					"slug": "xxx-large",
+					"name": "Extra Extra Extra Large"
+				},
+				{
+					"size": "clamp(32px, calc(1rem + 2.75vw), 42px)",
 					"slug": "huge",
 					"name": "Huge"
 				}
@@ -222,7 +227,7 @@
 				},
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--barlow)",
-					"fontSize": "var(--wp--preset--font-size--huge)",
+					"fontSize": "var(--wp--preset--font-size--xxx-large)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
 			},
