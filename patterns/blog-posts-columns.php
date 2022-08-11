@@ -31,7 +31,7 @@
 
 					<!-- wp:post-terms {"term":"category"} /-->
 
-					<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"x-large"} /-->
+					<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"top":"0.75rem"}}},"fontSize":"medium"} /-->
 
 					<!-- wp:pattern {"slug":"smartcube/postmeta"} /-->
 
