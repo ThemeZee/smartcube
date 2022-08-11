@@ -414,6 +414,7 @@ textarea {
 
 .wp-block-post-title a:hover, .wp-block-post-title a:focus, .wp-block-post-title a:active {
 	color: var(--wp--preset--color--dark-gray);
+	text-decoration: underline;
 }
 
 /* Post Author Block */

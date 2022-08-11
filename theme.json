@@ -202,6 +202,11 @@
 					"fontSize": "var(--wp--custom--typography--font-size--button)"
 				}
 			},
+			"core/post-title": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
 			"core/post-content": {
 				"typography": {
 					"fontSize": "var(--wp--custom--typography--font-size--text)"
