@@ -110,7 +110,7 @@ a:active {
 hr {
 	margin-top: var(--wp--custom--spacing--elements);
 	margin-bottom: var(--wp--custom--spacing--elements);
-	height: 4px;
+	height: 1px;
 	border: none;
 	background-color: currentColor;
 	box-sizing: content-box;
