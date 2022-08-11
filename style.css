@@ -444,6 +444,11 @@ textarea {
 }
 
 /* Query Pagination Block */
+.wp-block-query-pagination {
+	margin-top: 1.25vw !important;
+	padding: 0.5rem;
+}
+
 .wp-block-query-pagination > .wp-block-query-pagination-numbers {
 	margin-bottom: 0;
 }
@@ -456,7 +461,7 @@ textarea {
 
 .wp-block-query-pagination .page-numbers.current {
 	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--secondary);
+	background-color: var(--wp--preset--color--primary);
 }
 
 .wp-block-query-pagination .page-numbers:hover, .wp-block-query-pagination .page-numbers:focus, .wp-block-query-pagination .page-numbers:active {
@@ -690,7 +695,7 @@ textarea {
 }
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item .wp-block-navigation__submenu-container {
-	font-size: var(--wp--preset--font-size--small);
+	font-size: var(--wp--preset--font-size--x-small);
 	min-width: 250px !important;
 }
 
