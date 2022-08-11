@@ -75,28 +75,18 @@
 					"name": "Secondary"
 				},
 				{
-					"slug": "foreground",
-					"color": "#2e2e2e",
-					"name": "Foreground"
-				},
-				{
-					"slug": "foreground-accent",
-					"color": "#8e8e8e",
-					"name": "Foreground Accent"
-				},
-				{
-					"slug": "background",
-					"color": "#fefefe",
-					"name": "Background"
-				},
-				{
-					"slug": "background-accent",
+					"slug": "light-gray",
 					"color": "#ececec",
-					"name": "Background Accent"
+					"name": "Light Gray"
+				},
+				{
+					"slug": "gray",
+					"color": "#9c9c9c",
+					"name": "Gray"
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#303030",
+					"color": "#3c3c3c",
 					"name": "Dark Gray"
 				}
 			]
@@ -220,8 +210,8 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--background)",
-			"text": "var(--wp--preset--color--foreground)"
+			"background": "var(--wp--preset--color--white)",
+			"text": "#2c2c2c"
 		},
 		"elements": {
 			"h1": {
