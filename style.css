@@ -530,6 +530,8 @@ textarea {
 }
 
 .wp-block-search .wp-block-search__button {
+	display: flex;
+	align-items: center;
 	margin-left: 0.4rem;
 	padding: 0.4rem 0.8rem;
 	border: none;
