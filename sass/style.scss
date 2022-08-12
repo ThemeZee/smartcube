@@ -34,6 +34,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /*--------------------------------------------------------------
 # - HTML Elements
 --------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
 @import "elements/paragraphs";
 @import "elements/headings";
 @import "elements/links";
