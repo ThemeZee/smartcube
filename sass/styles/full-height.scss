@@ -1,0 +1,13 @@
+/* Read More Button */
+.wp-block-post-featured-image.is-style-full-height {
+	height: 100%;
+
+	a {
+		height: 100%;
+	}
+
+	img {
+		height: 100%;
+		object-fit: cover;
+	}
+}

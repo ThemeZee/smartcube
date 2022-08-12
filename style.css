@@ -787,3 +787,17 @@ textarea {
 	color: var(--wp--preset--color--white);
 	background-color: var(--wp--preset--color--dark-gray);
 }
+
+/* Read More Button */
+.wp-block-post-featured-image.is-style-full-height {
+	height: 100%;
+}
+
+.wp-block-post-featured-image.is-style-full-height a {
+	height: 100%;
+}
+
+.wp-block-post-featured-image.is-style-full-height img {
+	height: 100%;
+	object-fit: cover;
+}

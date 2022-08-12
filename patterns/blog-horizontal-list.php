@@ -21,7 +21,7 @@
 				<!-- wp:column {"width":"40%"} -->
 				<div class="wp-block-column" style="flex-basis:40%">
 
-					<!-- wp:post-featured-image {"isLink":true,"style":{"spacing":{"margin":{"top":"0rem","bottom":"0rem"}}}} /-->
+					<!-- wp:post-featured-image {"isLink":true,"className":"is-style-full-height","style":{"spacing":{"margin":{"top":"0rem","bottom":"0rem"}}}} /-->
 
 				</div>
 				<!-- /wp:column -->

@@ -202,5 +202,12 @@ function smartcube_register_block_styles() {
 		'label'        => esc_html__( 'Read More Button', 'smartcube' ),
 		'style_handle' => 'smartcube-stylesheet',
 	) );
+
+	// Register Full Height block style.
+	register_block_style( 'core/post-featured-image', array(
+		'name'         => 'full-height',
+		'label'        => esc_html__( 'Full Height', 'smartcube' ),
+		'style_handle' => 'smartcube-stylesheet',
+	) );
 }
 add_action( 'init', 'smartcube_register_block_styles', 9 );
