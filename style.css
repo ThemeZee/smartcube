@@ -760,7 +760,7 @@ textarea {
 
 /* Top Navigation */
 .is-style-top-navigation .wp-block-navigation__responsive-container-open {
-	padding: 1rem 0.5rem;
+	padding: 0.25rem 0.5rem;
 }
 
 .is-style-top-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container {

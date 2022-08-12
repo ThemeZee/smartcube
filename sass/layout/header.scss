@@ -1,4 +1,15 @@
 /* Helper Class until border control is fully available */
-.has-bottom-border {
+.header-bar {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+	.wp-block-search {
+		display: flex;
+		align-self: stretch;
+		border-left: 1px solid rgba(0, 0, 0, 0.1);
+
+		.wp-block-search__input,
+		&.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+			border: none;
+		}
+	}
 }
