@@ -9,6 +9,11 @@
 	font-size: var(--wp--custom--typography--font-size--text);
 }
 
+/* Box Sizing */
+.block-editor-page .editor-styles-wrapper .wp-block {
+	box-sizing: border-box;
+}
+
 /* Full Alignment */
 .block-editor-page .editor-styles-wrapper .block-editor-block-list__layout.is-root-container > .alignfull {
 	max-width: calc(870px + 1rem + 2.5vw);
