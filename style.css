@@ -614,15 +614,29 @@ textarea {
 .wp-block-separator {
 	border: none;
 	opacity: 1;
-}
-
-.wp-block-separator:not(.is-style-wide):not(.is-style-dots),
-.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 80px;
 	width: 80px;
-	height: 6px;
+	height: 4px;
+}
+
+.wp-block-separator.is-style-wide {
+	max-width: 100%;
+	width: auto;
+	height: 1px;
+	padding: 0;
+}
+
+.wp-block-separator.is-style-dots {
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+.wp-block-separator.is-style-dots::before {
+	letter-spacing: 1.5rem;
+	padding-left: 1.5rem;
 }
 
 /*--------------------------------------------------------------
@@ -762,4 +776,11 @@ textarea {
 	padding: 0.75rem 1rem;
 	border: 1px solid transparent;
 	box-shadow: inset 0 0 0 1px currentColor;
+}
+
+/* Thick Line Separator */
+.wp-block-separator.is-style-thick-line {
+	max-width: 100%;
+	width: auto;
+	height: 4px;
 }
