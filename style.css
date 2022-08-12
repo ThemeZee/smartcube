@@ -346,8 +346,19 @@ textarea {
 --------------------------------------------------------------*/
 
 /* Helper Class until border control is fully available */
-.has-bottom-border {
+.header-bar {
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-bar .wp-block-search {
+	display: flex;
+	align-self: stretch;
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-bar .wp-block-search .wp-block-search__input,
+.header-bar .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+	border: none;
 }
 
 /* All widgets should be 100% width */
@@ -845,4 +856,30 @@ textarea {
 .wp-block-post-featured-image.is-style-full-height img {
 	height: 100%;
 	object-fit: cover;
+}
+
+/* Small Search */
+.wp-block-search.is-style-small-search {
+	font-size: 16px;
+}
+
+.wp-block-search.is-style-small-search .wp-block-search__input {
+	padding: 0.2rem 0.6rem;
+}
+
+.wp-block-search.is-style-small-search.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+	padding: 0.1rem 0.1rem 0.1rem 0.6rem;
+}
+
+.wp-block-search.is-style-small-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button {
+	padding: 0.1rem 0.3rem;
+}
+
+.wp-block-search.is-style-small-search.wp-block-search__button-inside .wp-block-search__inside-wrapper .wp-block-search__button.has-icon {
+	padding: 0.2rem;
+}
+
+.wp-block-search.is-style-small-search .wp-block-search__button {
+	margin-left: 0.2rem;
+	padding: 0.2rem 0.6rem;
 }

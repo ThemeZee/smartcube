@@ -209,5 +209,12 @@ function smartcube_register_block_styles() {
 		'label'        => esc_html__( 'Full Height', 'smartcube' ),
 		'style_handle' => 'smartcube-stylesheet',
 	) );
+
+	// Register Small Search block style.
+	register_block_style( 'core/search', array(
+		'name'         => 'small-search',
+		'label'        => esc_html__( 'Small', 'smartcube' ),
+		'style_handle' => 'smartcube-stylesheet',
+	) );
 }
 add_action( 'init', 'smartcube_register_block_styles', 9 );
