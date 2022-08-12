@@ -1,5 +1,4 @@
 /* Helper Class until border control is fully available */
 .has-bottom-border {
-	border: none;
-	border-bottom: 1px solid;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
