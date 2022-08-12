@@ -1,19 +1,45 @@
 /* Search Block */
-.wp-block-search__button {
-	padding: calc(0.6rem + 2px) calc(1.2rem + 2px);
-	border: none;
-	color: var(--wp--preset--color--white);
-	background-color: var(--wp--preset--color--primary);
-	text-decoration: none;
-	font-weight: normal;
-	font-size: var(--wp--preset--font-size--small);
-	line-height: inherit;
-	cursor: pointer;
+.wp-block-search {
+	.wp-block-search__input {
+		padding: 0.4rem 0.8rem;
+		background: inherit;
+	}
 
-	&:hover,
-	&:focus,
-	&:active {
+	&.wp-block-search__button-inside .wp-block-search__inside-wrapper {
+		padding: 0.2rem 0.2rem 0.2rem 0.8rem;
+		border: 1px solid #ddd;
+
+		.wp-block-search__input {
+			padding: 0;
+		}
+
+		.wp-block-search__button {
+			padding: 0.2rem 0.6rem;
+
+			&.has-icon {
+				display: flex;
+				padding: 0.4rem;
+			}
+		}
+	}
+
+	.wp-block-search__button {
+		margin-left: 0.4rem;
+		padding: 0.4rem 0.8rem;
+		border: none;
 		color: var(--wp--preset--color--white);
-		background-color: var(--wp--preset--color--secondary);
+		background-color: var(--wp--preset--color--primary);
+		text-decoration: none;
+		font-weight: normal;
+		font-size: var(--wp--preset--font-size--small);
+		line-height: inherit;
+		cursor: pointer;
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: var(--wp--preset--color--white);
+			background-color: var(--wp--preset--color--dark-gray);
+		}
 	}
 }
