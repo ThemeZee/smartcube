@@ -33,7 +33,7 @@
 
 					<!-- wp:pattern {"slug":"smartcube/postmeta"} /-->
 
-					<!-- wp:post-excerpt {"moreText":"\u0026raquo; Read more"} /-->
+					<!-- wp:post-excerpt {"moreText":"Read more","className":"is-style-read-more-button"} /-->
 
 				</div>
 				<!-- /wp:column -->

@@ -195,5 +195,12 @@ function smartcube_register_block_styles() {
 		'label'        => esc_html__( 'Thick Line', 'smartcube' ),
 		'style_handle' => 'smartcube-stylesheet',
 	) );
+
+	// Register Read More button block style.
+	register_block_style( 'core/post-excerpt', array(
+		'name'         => 'read-more-button',
+		'label'        => esc_html__( 'Read More Button', 'smartcube' ),
+		'style_handle' => 'smartcube-stylesheet',
+	) );
 }
 add_action( 'init', 'smartcube_register_block_styles', 9 );

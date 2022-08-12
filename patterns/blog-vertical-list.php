@@ -21,7 +21,7 @@
 
 			<!-- wp:post-featured-image {"isLink":true} /-->
 
-			<!-- wp:post-excerpt {"moreText":"\u0026raquo; Read more","style":{"spacing":{"margin":{"bottom":"2vw"}}}} /-->
+			<!-- wp:post-excerpt {"moreText":"Read more","style":{"spacing":{"margin":{"bottom":"2vw"}}},"className":"is-style-read-more-button"} /-->
 
 			<!-- wp:separator {"backgroundColor":"light-gray","className":"is-style-wide"} -->
 			<hr class="wp-block-separator has-text-color has-light-gray-color has-alpha-channel-opacity has-light-gray-background-color has-background is-style-wide"/>
