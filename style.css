@@ -381,6 +381,10 @@ textarea {
 	margin-top: 0 !important;
 }
 
+.site-footer .footer-line {
+	border-top: 1px solid #fff;
+}
+
 /* Block Alignments */
 .site-content {
 	overflow: hidden;
