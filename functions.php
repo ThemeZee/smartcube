@@ -223,5 +223,12 @@ function smartcube_register_block_styles() {
 		'label'        => esc_html__( 'Small', 'smartcube' ),
 		'style_handle' => 'smartcube-stylesheet',
 	) );
+
+	// Register Square Shape Social links block style.
+	register_block_style( 'core/social-links', array(
+		'name'         => 'square-shape',
+		'label'        => esc_html__( 'Square Shape', 'smartcube' ),
+		'style_handle' => 'smartcube-stylesheet',
+	) );
 }
 add_action( 'init', 'smartcube_register_block_styles', 9 );

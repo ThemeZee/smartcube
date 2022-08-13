@@ -912,3 +912,20 @@ textarea {
 	margin-left: 0.2rem;
 	padding: 0.2rem 0.6rem;
 }
+
+/* Square shaped Social Links */
+.wp-block-social-links.is-style-square-shape .wp-social-link {
+	border-radius: 0;
+}
+
+.wp-block-social-links.is-style-square-shape .wp-social-link a {
+	padding: 0.7rem;
+}
+
+.wp-block-social-links.is-style-square-shape .wp-social-link a:hover, .wp-block-social-links.is-style-square-shape .wp-social-link a:focus, .wp-block-social-links.is-style-square-shape .wp-social-link a:active {
+	background-color: var(--wp--preset--color--dark-gray);
+}
+
+.wp-block-social-links.is-style-square-shape .wp-block-social-link:hover {
+	transform: none;
+}
