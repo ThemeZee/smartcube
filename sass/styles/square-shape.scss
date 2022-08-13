@@ -19,3 +19,13 @@
 		transform: none;
 	}
 }
+
+.site-footer .wp-block-social-links.is-style-square-shape {
+	.wp-social-link a {
+		&:hover,
+		&:focus,
+		&:active {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+	}
+}

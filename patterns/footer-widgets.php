@@ -79,12 +79,13 @@
 				<?php _e( 'Stay in Touch', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
-			<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"left"}} -->
-			<ul class="wp-block-social-links has-icon-color is-style-logos-only">
+			<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","iconBackgroundColor":"darker-gray","iconBackgroundColorValue":"#2c2c2c","size":"has-normal-icon-size","className":"is-style-square-shape","layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":{"top":"2px","left":"2px"}}}} -->
+			<ul class="wp-block-social-links has-normal-icon-size has-icon-color has-icon-background-color is-style-square-shape">
 
 				<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->
 				<!-- wp:social-link {"url":"https://facebook.com/","service":"facebook"} /-->
 				<!-- wp:social-link {"url":"https://instagram.com","service":"instagram"} /-->
+				<!-- wp:social-link {"url":"https://linkedin.com","service":"linkedin"} /-->
 
 			</ul>
 			<!-- /wp:social-links -->

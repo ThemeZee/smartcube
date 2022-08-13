@@ -929,3 +929,7 @@ textarea {
 .wp-block-social-links.is-style-square-shape .wp-block-social-link:hover {
 	transform: none;
 }
+
+.site-footer .wp-block-social-links.is-style-square-shape .wp-social-link a:hover, .site-footer .wp-block-social-links.is-style-square-shape .wp-social-link a:focus, .site-footer .wp-block-social-links.is-style-square-shape .wp-social-link a:active {
+	background-color: rgba(0, 0, 0, 0.15);
+}
