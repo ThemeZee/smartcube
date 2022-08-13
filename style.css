@@ -823,6 +823,23 @@ textarea {
 	margin-right: 0.5rem;
 }
 
+/* Footer Navigation */
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container {
+	gap: 1.25rem;
+}
+
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container .wp-block-navigation-item:hover, .is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container .wp-block-navigation-item:focus, .is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container .wp-block-navigation-item:active {
+	text-decoration: underline;
+}
+
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content {
+	text-decoration: underline;
+}
+
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation-item__content {
+	padding: 0;
+}
+
 /* Sidebar Title */
 .is-style-sidebar-title {
 	color: var(--wp--preset--color--white);

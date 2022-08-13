@@ -182,6 +182,13 @@ function smartcube_register_block_styles() {
 		'style_handle' => 'smartcube-stylesheet',
 	) );
 
+	// Register Footer Navigation block style.
+	register_block_style( 'core/navigation', array(
+		'name'         => 'footer-navigation',
+		'label'        => esc_html__( 'Footer Navigation', 'smartcube' ),
+		'style_handle' => 'smartcube-stylesheet',
+	) );
+
 	// Register Sidebar Title block style.
 	register_block_style( 'core/heading', array(
 		'name'         => 'sidebar-title',

@@ -1,0 +1,28 @@
+/* Footer Navigation */
+.is-style-footer-navigation {
+	.wp-block-navigation__responsive-container:not(.is-menu-open) {
+		.wp-block-navigation__container {
+			gap: 1.25rem;
+
+			.wp-block-navigation-item {
+				&:hover,
+				&:focus,
+				&:active {
+					text-decoration: underline;
+				}
+
+				&.current-menu-item {
+					> .wp-block-navigation-item__content {
+						text-decoration: underline;
+					}
+				}
+			}
+
+			> .wp-block-navigation-item {
+				> .wp-block-navigation-item__content {
+					padding: 0;
+				}
+			}
+		}
+	}
+}
