@@ -312,17 +312,12 @@
 	"templateParts": [
 		{
 			"name": "header",
-			"title": "Header with Social Icons",
+			"title": "Header Large",
 			"area": "header"
 		},
 		{
-			"name": "header-with-text",
-			"title": "Header with Text",
-			"area": "header"
-		},
-		{
-			"name": "header-with-top-navigation",
-			"title": "Header with Top Navigation",
+			"name": "header-small",
+			"title": "Header Small",
 			"area": "header"
 		},
 		{
@@ -334,6 +329,10 @@
 			"name": "footer-small",
 			"title": "Footer Small",
 			"area": "footer"
+		},
+		{
+			"name": "sidebar",
+			"title": "Sidebar"
 		}
 	]
 }
