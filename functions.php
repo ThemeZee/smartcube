@@ -74,6 +74,7 @@ add_action( 'enqueue_block_editor_assets', 'smartcube_theme_fonts', 1 );
 function smartcube_get_fonts_url() {
 	$font_families = array(
 		'Barlow:400,400italic,700,700italic',
+		'Bitter:400,400italic,700,700italic',
 	);
 
 	$query_args = array(

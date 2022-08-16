@@ -105,6 +105,11 @@
 					"fontFamily": "Barlow, Arial, Verdana",
 					"name": "Barlow",
 					"slug": "barlow"
+				},
+				{
+					"fontFamily": "Bitter, Arial, Verdana",
+					"name": "Bitter",
+					"slug": "bitter"
 				}
 			],
 			"fontSizes": [
@@ -200,7 +205,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--barlow)",
+					"fontFamily": "var(--wp--preset--font-family--bitter)",
 					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -213,7 +218,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--barlow)",
+					"fontFamily": "var(--wp--preset--font-family--bitter)",
 					"fontSize": "var(--wp--preset--font-size--x-large)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -226,7 +231,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--barlow)",
+					"fontFamily": "var(--wp--preset--font-family--bitter)",
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -239,7 +244,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--barlow)",
+					"fontFamily": "var(--wp--preset--font-family--bitter)",
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -252,7 +257,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--barlow)",
+					"fontFamily": "var(--wp--preset--font-family--bitter)",
 					"fontSize": "22px",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
@@ -265,7 +270,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--barlow)",
+					"fontFamily": "var(--wp--preset--font-family--bitter)",
 					"fontSize": "20px",
 					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
 				}
