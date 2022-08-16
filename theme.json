@@ -176,6 +176,14 @@
 					"fontSize": "var(--wp--custom--typography--font-size--button)"
 				}
 			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--bitter)",
+					"fontSize": "var(--wp--preset--font-size--xxx-large)",
+					"fontWeight": "700",
+					"lineHeight": "var(--wp--custom--typography--line-height--headings)"
+				}
+			},
 			"core/post-title": {
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
