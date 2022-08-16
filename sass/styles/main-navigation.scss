@@ -11,6 +11,7 @@
 	.wp-block-navigation__responsive-container:not(.is-menu-open) {
 		.wp-block-navigation__container {
 			gap: 0;
+			font-size: 16px;
 
 			> .wp-block-navigation-item {
 				padding: 0 0.75rem;
@@ -46,7 +47,7 @@
 				}
 
 				.wp-block-navigation__submenu-container {
-					font-size: 16px;
+					font-size: 15px;
 					min-width: 250px !important;
 
 					.wp-block-navigation-item {

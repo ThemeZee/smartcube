@@ -717,6 +717,7 @@ textarea {
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container {
 	gap: 0;
+	font-size: 16px;
 }
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item {
@@ -750,7 +751,7 @@ textarea {
 }
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item .wp-block-navigation__submenu-container {
-	font-size: 16px;
+	font-size: 15px;
 	min-width: 250px !important;
 }
 
