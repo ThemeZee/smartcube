@@ -102,9 +102,9 @@
 			"textTransform": true,
 			"fontFamilies": [
 				{
-					"fontFamily": "Barlow, Arial, Verdana",
-					"name": "Barlow",
-					"slug": "barlow"
+					"fontFamily": "Raleway, Arial, Verdana",
+					"name": "Raleway",
+					"slug": "raleway"
 				},
 				{
 					"fontFamily": "Bitter, Arial, Verdana",
@@ -124,7 +124,7 @@
 					"name": "Extra Small"
 				},
 				{
-					"size": "17px",
+					"size": "16px",
 					"slug": "small",
 					"name": "Small"
 				},
@@ -291,7 +291,7 @@
 		},
 		"typography": {
 			"fontSize": "var(--wp--custom--typography--font-size--body)",
-			"fontFamily": "var(--wp--preset--font-family--barlow)",
+			"fontFamily": "var(--wp--preset--font-family--raleway)",
 			"lineHeight": "var(--wp--custom--typography--line-height--text)"
 		},
 		"spacing": {
