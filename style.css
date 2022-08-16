@@ -840,6 +840,19 @@ textarea {
 	padding: 0;
 }
 
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item .wp-block-navigation__submenu-icon {
+	margin-top: 3px;
+}
+
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item.has-child > :where(.wp-block-navigation__submenu-container) {
+	top: auto;
+	bottom: 100%;
+}
+
+.is-style-footer-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container .wp-block-navigation__submenu-container {
+	padding: 0.5rem;
+}
+
 /* Sidebar Title */
 .is-style-sidebar-title {
 	color: var(--wp--preset--color--white);

@@ -22,6 +22,19 @@
 				> .wp-block-navigation-item__content {
 					padding: 0;
 				}
+
+				.wp-block-navigation__submenu-icon {
+					margin-top: 3px;
+				}
+
+				&.has-child > :where(.wp-block-navigation__submenu-container) {
+					top: auto;
+					bottom: 100%;
+				}
+			}
+
+			.wp-block-navigation__submenu-container {
+				padding: 0.5rem;
 			}
 		}
 	}
