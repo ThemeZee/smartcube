@@ -90,7 +90,7 @@
 			}
 		},
 		"layout": {
-			"contentSize": "870px"
+			"contentSize": "calc(1360px * 0.7 - 1rem - 2.5vw)"
 		},
 		"typography": {
 			"dropCap": true,
