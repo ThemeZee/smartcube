@@ -15,8 +15,8 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
+			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'About Smartcube', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
@@ -36,8 +36,8 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
+			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Categories', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
@@ -55,8 +55,8 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
+			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Archives', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
@@ -74,8 +74,8 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
+			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Stay in Touch', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
