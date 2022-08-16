@@ -495,7 +495,7 @@ textarea {
 
 /* Group Block */
 .wp-block-group.has-background {
-	padding: var(--wp--custom--spacing--elements);
+	padding: calc(0.5rem + 1.25vw);
 }
 
 /* Button Block */
