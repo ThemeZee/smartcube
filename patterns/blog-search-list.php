@@ -43,9 +43,15 @@
 
 	<!-- /wp:post-template -->
 
-	<!-- wp:query-pagination {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-	<!-- wp:query-pagination-numbers /-->
-	<!-- /wp:query-pagination -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"1.25vw","margin":{"top":"1.25vw"},"padding":{"right":"0.5rem","left":"0.5rem","bottom":"0.5rem"}}}} -->
+	<div class="wp-block-group" style="margin-top:1.25vw;padding-right:0.5rem;padding-bottom:0.5rem;padding-left:0.5rem">
+
+		<!-- wp:query-pagination {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+		<!-- wp:query-pagination-numbers /-->
+		<!-- /wp:query-pagination -->
+
+	</div>
+	<!-- /wp:group -->
 
 </div>
 <!-- /wp:query -->
