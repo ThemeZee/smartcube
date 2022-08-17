@@ -137,15 +137,11 @@ add_filter( 'admin_body_class', 'smartcube_block_editor_body_classes' );
  */
 function smartcube_register_block_pattern_categories() {
 	$block_pattern_categories = array(
-		'smartcube_hero'         => array( 'label' => __( 'Smartcube: Hero', 'smartcube' ) ),
-		'smartcube_cta'          => array( 'label' => __( 'Smartcube: Call to Action', 'smartcube' ) ),
-		'smartcube_features'     => array( 'label' => __( 'Smartcube: Features', 'smartcube' ) ),
-		'smartcube_portfolio'    => array( 'label' => __( 'Smartcube: Portfolio', 'smartcube' ) ),
-		'smartcube_services'     => array( 'label' => __( 'Smartcube: Services', 'smartcube' ) ),
-		'smartcube_testimonials' => array( 'label' => __( 'Smartcube: Testimonials', 'smartcube' ) ),
-		'smartcube_team'         => array( 'label' => __( 'Smartcube: Team', 'smartcube' ) ),
-		'smartcube_page_layouts' => array( 'label' => __( 'Smartcube: Full Page Layouts', 'smartcube' ) ),
-		'smartcube_blog'         => array( 'label' => __( 'Smartcube: Blog Posts', 'smartcube' ) ),
+		'smartcube_authors'   => array( 'label' => __( 'Smartcube: Authors', 'smartcube' ) ),
+		'smartcube_blog'      => array( 'label' => __( 'Smartcube: Blog Loop', 'smartcube' ) ),
+		'smartcube_cta'       => array( 'label' => __( 'Smartcube: Call to Action', 'smartcube' ) ),
+		'smartcube_magazine'  => array( 'label' => __( 'Smartcube: Magazine', 'smartcube' ) ),
+		'smartcube_portfolio' => array( 'label' => __( 'Smartcube: Portfolio', 'smartcube' ) ),
 	);
 
 	/**
