@@ -14,5 +14,9 @@
 }
 
 .wp-block-button__link {
-	padding: calc(0.6rem + 2px) calc(1rem + 2px);
+	padding: calc(0.4rem + 2px) calc(0.8rem + 2px);
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link {
+	padding: 0.4rem 0.8rem;
 }
