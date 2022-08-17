@@ -6,8 +6,8 @@
 */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"},"margin":{"bottom":"4vw"}}},"backgroundColor":"primary","textColor":"white","layout":{"inherit":false}} -->
-<div class="wp-block-group has-white-color has-primary-background-color has-text-color has-background" style="margin-bottom:4vw;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:group {"backgroundColor":"light-gray","layout":{"inherit":false}} -->
+<div class="wp-block-group has-light-gray-background-color has-background">
 
 	<!-- wp:columns {"verticalAlignment":"center"} -->
 	<div class="wp-block-columns are-vertically-aligned-center">
@@ -15,8 +15,8 @@
 		<!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%">
 
-			<!-- wp:paragraph {"fontSize":"large"} -->
-			<p class="has-large-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.</p>
+			<!-- wp:paragraph {"fontSize":"medium"} -->
+			<p class="has-medium-font-size">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
 			<!-- /wp:paragraph -->
 
 		</div>
@@ -27,13 +27,9 @@
 
 			<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 			<div class="wp-block-buttons">
-
-				<!-- wp:button {"backgroundColor":"white","textColor":"primary","className":"is-style-fill"} -->
-				<div class="wp-block-button is-style-fill">
-					<a class="wp-block-button__link has-primary-color has-white-background-color has-text-color has-background"><?php _e( 'Join now', 'smartcube' ); ?></a>
-				</div>
+				<!-- wp:button -->
+				<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'smartcube' ); ?></a></div>
 				<!-- /wp:button -->
-
 			</div>
 			<!-- /wp:buttons -->
 

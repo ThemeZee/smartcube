@@ -6,11 +6,11 @@
 */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"},"margin":{"bottom":"4vw"}}},"backgroundColor":"primary","textColor":"white","layout":{"inherit":false}} -->
-<div class="wp-block-group has-white-color has-primary-background-color has-text-color has-background" style="margin-bottom:4vw;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem">
+<!-- wp:group {"backgroundColor":"light-gray","layout":{"inherit":false}} -->
+<div class="wp-block-group has-light-gray-background-color has-background">
 
-	<!-- wp:heading {"textAlign":"center","fontSize":"x-large"} -->
-	<h2 class="has-text-align-center has-x-large-font-size"><?php _e( 'Call to Action', 'smartcube' ); ?></h2>
+	<!-- wp:heading {"textAlign":"center"} -->
+	<h2 class="has-text-align-center"><?php _e( 'Call to Action', 'smartcube' ); ?></h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center"} -->
@@ -19,13 +19,9 @@
 
 	<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
 	<div class="wp-block-buttons">
-
-		<!-- wp:button {"backgroundColor":"white","textColor":"primary","className":"is-style-fill"} -->
-		<div class="wp-block-button is-style-fill">
-			<a class="wp-block-button__link has-primary-color has-white-background-color has-text-color has-background"><?php _e( 'Join now', 'smartcube' ); ?></a>
-		</div>
+		<!-- wp:button -->
+		<div class="wp-block-button"><a class="wp-block-button__link"><?php _e( 'Learn more', 'smartcube' ); ?></a></div>
 		<!-- /wp:button -->
-
 	</div>
 	<!-- /wp:buttons -->
 
