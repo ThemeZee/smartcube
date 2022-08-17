@@ -4,3 +4,15 @@
 		margin: 0;
 	}
 }
+
+.wp-block-post-template.is-flex-container.columns-2,
+.wp-block-query-loop.is-flex-container.columns-2 {
+	gap: calc(1.25vw + 0.5rem);
+}
+
+@media (min-width: 600px) {
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li,
+	.wp-block-query-loop.is-flex-container.is-flex-container.columns-2 > li {
+		width: calc(50% - (1.25vw + 0.5rem ) / 2);
+	}
+}
