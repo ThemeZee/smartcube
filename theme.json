@@ -176,6 +176,11 @@
 					"fontSize": "var(--wp--custom--typography--font-size--button)"
 				}
 			},
+			"core/columns": {
+				"spacing": {
+					"blockGap": "calc(0.5rem + 1.25vw)"
+				}
+			},
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var(--wp--preset--font-family--bitter)",
