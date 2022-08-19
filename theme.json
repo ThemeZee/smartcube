@@ -129,6 +129,11 @@
 					"name": "Small"
 				},
 				{
+					"size": "18px",
+					"slug": "regular",
+					"name": "Regular"
+				},
+				{
 					"size": "clamp(20px, calc(1rem + 0.83vw), 22px)",
 					"slug": "medium",
 					"name": "Medium"
