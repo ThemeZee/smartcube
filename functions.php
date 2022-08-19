@@ -98,7 +98,7 @@ function smartcube_excerpt_length( $length ) {
 		return $length;
 	}
 
-	return apply_filters( 'smartcube_excerpt_length', 20 );
+	return apply_filters( 'smartcube_excerpt_length', 23 );
 }
 add_filter( 'excerpt_length', 'smartcube_excerpt_length' );
 
