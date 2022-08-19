@@ -6,8 +6,8 @@
 */
 ?>
 
-<!-- wp:columns {"style":{"spacing":{"blockGap":"1.5vw"}}} -->
-<div class="wp-block-columns">
+<!-- wp:columns {"style":{"spacing":{"blockGap":"1.5vw","margin":{"top":"2vw"}}}} -->
+<div class="wp-block-columns" style="margin-top:2vw">
 
 	<!-- wp:column {"width":"50%"} -->
 	<div class="wp-block-column" style="flex-basis:50%">

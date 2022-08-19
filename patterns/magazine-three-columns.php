@@ -33,6 +33,8 @@
 				</div>
 				<!-- /wp:group -->
 
+				<!-- wp:post-excerpt {"moreText":"Read more","showMoreOnNewLine":false} /-->
+
 			</div>
 			<!-- /wp:group -->
 

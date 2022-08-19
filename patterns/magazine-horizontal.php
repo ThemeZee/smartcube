@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Magazine Horizontal Box
- * Slug: smartcube/magazine-horizontal-box
+ * Title: Magazine Horizontal
+ * Slug: smartcube/magazine-horizontal
  * Categories: smartcube_magazine
 */
 ?>

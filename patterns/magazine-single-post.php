@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Featured Post
- * Slug: smartcube/magazine-featured-post
+ * Title: Magazine Single Post
+ * Slug: smartcube/magazine-single-post
  * Categories: smartcube_magazine
 */
 ?>
