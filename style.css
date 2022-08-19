@@ -438,7 +438,9 @@ textarea {
 }
 
 .wp-block-post-template.is-flex-container.columns-2,
-.wp-block-query-loop.is-flex-container.columns-2 {
+.wp-block-query-loop.is-flex-container.columns-2,
+.wp-block-post-template.is-flex-container.columns-3,
+.wp-block-query-loop.is-flex-container.columns-3 {
 	gap: calc(1.25vw + 0.5rem);
 }
 
@@ -446,6 +448,11 @@ textarea {
 	.wp-block-post-template.is-flex-container.is-flex-container.columns-2 > li,
 	.wp-block-query-loop.is-flex-container.is-flex-container.columns-2 > li {
 		width: calc(50% - (1.25vw + 0.5rem ) / 2);
+	}
+
+	.wp-block-post-template.is-flex-container.is-flex-container.columns-3 > li,
+	.wp-block-query-loop.is-flex-container.is-flex-container.columns-3 > li {
+		width: calc(33.33% - (1.25vw + 0.5rem ) / 3 * 2);
 	}
 }
 
