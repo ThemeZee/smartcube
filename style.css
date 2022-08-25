@@ -793,7 +793,7 @@ textarea {
 }
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item:hover > .wp-block-navigation-item__content, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item:focus > .wp-block-navigation-item__content, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item:active > .wp-block-navigation-item__content {
-	background-color: rgba(255, 255, 255, 0.15) !important;
+	background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Top Navigation */
