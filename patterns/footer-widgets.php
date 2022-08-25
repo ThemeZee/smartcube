@@ -15,8 +15,8 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"accent","textColor":"white","className":"is-style-default","fontSize":"small"} -->
+			<h3 class="is-style-default has-white-color has-accent-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'About Smartcube', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
@@ -36,8 +36,8 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"accent","textColor":"white","className":"is-style-default","fontSize":"small"} -->
+			<h3 class="is-style-default has-white-color has-accent-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Categories', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
@@ -55,8 +55,8 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"accent","textColor":"white","className":"is-style-default","fontSize":"small"} -->
+			<h3 class="is-style-default has-white-color has-accent-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Archives', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
@@ -74,12 +74,12 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"darker-gray","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-darker-gray-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"accent","textColor":"white","className":"is-style-default","fontSize":"small"} -->
+			<h3 class="is-style-default has-white-color has-accent-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Stay in Touch', 'smartcube' ); ?>
 			</h3><!-- /wp:heading -->
 
-			<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","iconBackgroundColor":"darker-gray","iconBackgroundColorValue":"#2c2c2c","size":"has-normal-icon-size","className":"is-style-square-shape","layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":{"top":"2px","left":"2px"}}}} -->
+			<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","iconBackgroundColor":"accent","iconBackgroundColorValue":"#3c3c3c","size":"has-normal-icon-size","className":"is-style-square-shape","layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":{"top":"2px","left":"2px"}}}} -->
 			<ul class="wp-block-social-links has-normal-icon-size has-icon-color has-icon-background-color is-style-square-shape">
 
 				<!-- wp:social-link {"url":"https://twitter.com","service":"twitter"} /-->

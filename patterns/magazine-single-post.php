@@ -26,8 +26,8 @@
 						<div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 						<!-- /wp:spacer -->
 
-						<!-- wp:group {"backgroundColor":"white","textColor":"darker-gray"} -->
-						<div class="wp-block-group has-darker-gray-color has-white-background-color has-text-color has-background">
+						<!-- wp:group {"backgroundColor":"white","textColor":"dark-gray"} -->
+						<div class="wp-block-group has-dark-gray-color has-white-background-color has-text-color has-background">
 
 							<!-- wp:post-title {"isLink":true} /-->
 							<!-- wp:post-excerpt {"moreText":"Read More \u0026raquo;","showMoreOnNewLine":false,"className":"is-style-default"} /-->
