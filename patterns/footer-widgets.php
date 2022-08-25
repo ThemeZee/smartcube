@@ -15,10 +15,11 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"accent","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-accent-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"className":"is-style-sidebar-title","fontSize":"small"} -->
+			<h3 class="is-style-sidebar-title has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'About Smartcube', 'smartcube' ); ?>
-			</h3><!-- /wp:heading -->
+			</h3>
+			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
 			<p><?php _e( 'Smartcube is a clean and lightweight block theme with modern colors and typography. The theme supports a huge range of block patterns, multiple header and footer block template parts as well as global style variants.', 'smartcube' ); ?></p>
@@ -36,10 +37,11 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"accent","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-accent-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"className":"is-style-sidebar-title","fontSize":"small"} -->
+			<h3 class="is-style-sidebar-title has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Categories', 'smartcube' ); ?>
-			</h3><!-- /wp:heading -->
+			</h3>
+			<!-- /wp:heading -->
 
 			<!-- wp:categories /-->
 
@@ -55,10 +57,11 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"accent","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-accent-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"className":"is-style-sidebar-title","fontSize":"small"} -->
+			<h3 class="is-style-sidebar-title has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Archives', 'smartcube' ); ?>
-			</h3><!-- /wp:heading -->
+			</h3>
+			<!-- /wp:heading -->
 
 			<!-- wp:archives /-->
 
@@ -74,10 +77,11 @@
 		<!-- wp:group {"className":"footer-widget"} -->
 		<div class="wp-block-group footer-widget">
 
-			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"backgroundColor":"accent","textColor":"white","className":"is-style-default","fontSize":"small"} -->
-			<h3 class="is-style-default has-white-color has-accent-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400">
+			<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"className":"is-style-sidebar-title","fontSize":"small"} -->
+			<h3 class="is-style-sidebar-title has-small-font-size" style="font-style:normal;font-weight:400">
 				<?php _e( 'Stay in Touch', 'smartcube' ); ?>
-			</h3><!-- /wp:heading -->
+			</h3>
+			<!-- /wp:heading -->
 
 			<!-- wp:social-links {"iconColor":"white","iconColorValue":"#ffffff","iconBackgroundColor":"accent","iconBackgroundColorValue":"#3c3c3c","size":"has-normal-icon-size","className":"is-style-square-shape","layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"blockGap":{"top":"2px","left":"2px"}}}} -->
 			<ul class="wp-block-social-links has-normal-icon-size has-icon-color has-icon-background-color is-style-square-shape">
