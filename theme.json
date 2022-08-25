@@ -52,7 +52,7 @@
 				},
 				{
 					"slug": "accent",
-					"color": "#3c3c3c",
+					"color": "#2a2a2a",
 					"name": "Accent"
 				},
 				{
@@ -67,7 +67,7 @@
 				},
 				{
 					"slug": "dark-gray",
-					"color": "#2c2c2c",
+					"color": "#3c3c3c",
 					"name": "Dark Grey"
 				}
 			]
