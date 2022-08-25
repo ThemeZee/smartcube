@@ -8,7 +8,7 @@
 	&:not(.is-style-outline) .wp-block-button__link:not(.has-background):not(.has-text-color):hover,
 	&:not(.is-style-outline) .wp-block-button__link:not(.has-background):not(.has-text-color):active {
 		color: var(--wp--preset--color--white);
-		background-color: var(--wp--preset--color--dark-gray);
+		background-color: var(--wp--preset--color--accent);
 		text-decoration: none;
 	}
 }
