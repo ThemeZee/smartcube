@@ -140,6 +140,7 @@ function smartcube_register_block_pattern_categories() {
 		'smartcube_authors'   => array( 'label' => __( 'Smartcube: Authors', 'smartcube' ) ),
 		'smartcube_blog'      => array( 'label' => __( 'Smartcube: Blog Loop', 'smartcube' ) ),
 		'smartcube_cta'       => array( 'label' => __( 'Smartcube: Call to Action', 'smartcube' ) ),
+		'smartcube_homepage'  => array( 'label' => __( 'Smartcube: Homepage', 'smartcube' ) ),
 		'smartcube_magazine'  => array( 'label' => __( 'Smartcube: Magazine', 'smartcube' ) ),
 		'smartcube_portfolio' => array( 'label' => __( 'Smartcube: Portfolio', 'smartcube' ) ),
 	);
