@@ -9,8 +9,10 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"1.5vw"}}} -->
 <div class="wp-block-group">
 
-	<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"2vw","bottom":"1.5vw"}}},"className":"is-style-sidebar-title","fontSize":"small"} -->
-	<h2 class="is-style-sidebar-title has-small-font-size" style="font-style:normal;font-weight:400;margin-top:2vw;margin-bottom:1.5vw"><?php _e( 'Category Title', 'smartcube' ); ?></h2>
+	<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"2vw","bottom":"1.5vw"}}},"backgroundColor":"primary","textColor":"white","className":"is-style-sidebar-title","fontSize":"small"} -->
+	<h2 class="is-style-sidebar-title has-white-color has-primary-background-color has-text-color has-background has-small-font-size" style="font-style:normal;font-weight:400;margin-top:2vw;margin-bottom:1.5vw">
+		<?php _e( 'Category Title', 'smartcube' ); ?>
+	</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:query {"queryId":1,"query":{"perPage":"2","pages":"1","offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":2}} -->
