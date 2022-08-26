@@ -11,7 +11,7 @@
 function smartcube_setup() {
 
 	// Set default Post Thumbnail size.
-	set_post_thumbnail_size( 1530, 765 );
+	set_post_thumbnail_size( 1800, 1000 );
 
 	// Enqueue editor styles.
 	add_editor_style( 'style.css' );
