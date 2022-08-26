@@ -22,7 +22,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->
-			<p><?php _e( 'Smartcube is a clean and lightweight block theme with modern colors and typography. The theme supports a huge range of block patterns, multiple header and footer block template parts as well as global style variants.', 'smartcube' ); ?></p>
+			<p><?php _e( 'Smartcube is a perfect theme for news and magazine websites as well as simple blogs. The unique design looks great on every device. The main highlight of Scmartcube is the flexible block pattern library which allows you to create a magazine-styled homepage with ease.', 'smartcube' ); ?></p>
 			<!-- /wp:paragraph -->
 
 		</div>

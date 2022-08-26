@@ -8,11 +8,11 @@ Tested up to: 6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Smartcube is a stunning and elegant theme made for the new WordPress Full Site Editor.
+Smartcube is a perfect theme for news and magazine websites as well as simple blogs.
 
 == Description ==
 
-Smartcube is a stunning and elegant theme made for the new WordPress Full Site Editor. The theme is completely built with blocks, comes with great typography and is packed with easy to use block patterns, multiple color schemes and several header and footer templates.
+Smartcube is a perfect theme for news and magazine websites as well as simple blogs. The unique design looks great on every device. The main highlight of Scmartcube is the flexible block pattern library which allows you to create a magazine-styled homepage with ease.
 
 For more information about Smartcube please go to https://themezee.com/themes/smartcube/
 
@@ -24,7 +24,7 @@ For more information about Smartcube please go to https://themezee.com/themes/sm
 
 == Changelog ==
 
-= 1.0 - 2022-06-24 =
+= 1.0 - 2022-08-26 =
 * Initial Release
 
 == Copyright ==
