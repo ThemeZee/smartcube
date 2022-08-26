@@ -10,7 +10,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"0.5rem","top":"0.5rem","bottom":"0.5rem","left":"0.5rem"}}}} -->
 <div class="wp-block-group" style="padding-top:0.5rem;padding-right:0.5rem;padding-bottom:0.5rem;padding-left:0.5rem">
 
-	<!-- wp:query {"queryId":1,"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"displayLayout":{"type":"flex","columns":2}} -->
+	<!-- wp:query {"queryId":1,"query":{"perPage":"6","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"flex","columns":2}} -->
 	<div class="wp-block-query">
 
 		<!-- wp:post-template -->
