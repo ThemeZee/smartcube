@@ -13,6 +13,14 @@
 			gap: 0;
 			font-size: 16px;
 
+			.wp-block-navigation-item {
+				&.current-menu-item {
+					> .wp-block-navigation-item__content {
+						text-decoration: underline;
+					}
+				}
+			}
+
 			> .wp-block-navigation-item {
 				padding: 0 0.75rem;
 				border-right: 1px solid currentColor;
@@ -33,12 +41,6 @@
 				&:active {
 					color: var(--wp--preset--color--white) !important;
 					background-color: var(--wp--preset--color--accent) !important;
-				}
-
-				&.current-menu-item {
-					> .wp-block-navigation-item__content {
-						text-decoration: underline;
-					}
 				}
 
 				> .wp-block-navigation__submenu-container {
