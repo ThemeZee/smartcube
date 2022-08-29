@@ -24,7 +24,7 @@ For more information about Smartcube please go to https://themezee.com/themes/sm
 
 == Changelog ==
 
-= 1.0 - 2022-08-26 =
+= 1.0 - 2022-08-29 =
 * Initial Release
 
 == Copyright ==
@@ -56,14 +56,26 @@ Copyright: Jeremy Tribby
 
 3. Images used in screenshot.jpg are from StockSnap
 
-a) https://stocksnap.io/photo/architecture-building-YLZ9D6JH3M
+a) https://stocksnap.io/photo/buildings-architecture-O6ZKFPOHXN
 License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
-Copyright: All Bong (https://stocksnap.io/author/31654)
+Copyright: Matthew Henry (https://stocksnap.io/author/200)
 
-b) https://stocksnap.io/photo/architecture-building-RV2H4VBE3L
+b) https://stocksnap.io/photo/mac-apple-6ICJXP5TZB
 License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
-Copyright: Lance Anderson (https://stocksnap.io/author/450)
+Copyright: Christina Truong (https://stocksnap.io/author/christinatruong)
 
-c) https://stocksnap.io/photo/architecture-building-06SH94UU8W
+c) https://stocksnap.io/photo/palm-tree-QGK73IB5RI
 License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
-Copyright: Lance Anderson (https://stocksnap.io/author/450)
+Copyright: Matt Bango (https://stocksnap.io/author/mattbangophotos)
+
+d) https://stocksnap.io/photo/basketball-ring-9ENJG43WPV
+License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
+Copyright: Sasha Elaizz (https://stocksnap.io/author/elaizz)
+
+e) https://stocksnap.io/photo/people-hand-F7AEBU9901
+License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
+Copyright: Luca Bravo (https://stocksnap.io/author/22748)
+
+f) https://stocksnap.io/photo/drone-background-APSRDPFZSR
+License: Distributed under the terms of the CC0 License (https://creativecommons.org/publicdomain/zero/1.0/)
+Copyright: One Idea LLC (https://stocksnap.io/author/oneidea)
