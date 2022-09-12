@@ -24,6 +24,9 @@ For more information about Smartcube please go to https://themezee.com/themes/sm
 
 == Changelog ==
 
+= 1.0.1 - 2022-09-12 =
+* updated screenshot for smaller file size
+
 = 1.0 - 2022-08-29 =
 * Initial Release
 
