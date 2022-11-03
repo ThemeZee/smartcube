@@ -9,6 +9,10 @@
 	}
 
 	.wp-block-navigation__responsive-container:not(.is-menu-open) {
+		.wp-block-navigation__responsive-close {
+			max-width: 100%;
+		}
+
 		.wp-block-navigation__container {
 			gap: 0;
 			font-size: 16px;
@@ -41,6 +45,10 @@
 				&:active {
 					color: var(--wp--preset--color--white) !important;
 					background-color: var(--wp--preset--color--accent) !important;
+
+					a {
+						color: inherit;
+					}
 				}
 
 				> .wp-block-navigation__submenu-container {

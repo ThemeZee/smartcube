@@ -4,9 +4,9 @@ Theme URI: https://themezee.com/themes/smartcube/
 Author: ThemeZee
 Author URI: https://themezee.com/
 Description: Smartcube is a perfect theme for news and magazine websites as well as simple blogs. The unique design looks great on every device. The main highlight of Scmartcube is the flexible block pattern library which allows you to create a magazine-styled homepage with ease.
-Version: 1.0.1
+Version: 1.0.2
 Requires at least: 6.0
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -741,6 +741,10 @@ textarea {
 	padding: 1rem 0.5rem;
 }
 
+.is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__responsive-close {
+	max-width: 100%;
+}
+
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container {
 	gap: 0;
 	font-size: 16px;
@@ -769,6 +773,10 @@ textarea {
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item:hover, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item:focus, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item:active {
 	color: var(--wp--preset--color--white) !important;
 	background-color: var(--wp--preset--color--accent) !important;
+}
+
+.is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item:hover a, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item:focus a, .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item:active a {
+	color: inherit;
 }
 
 .is-style-main-navigation .wp-block-navigation__responsive-container:not(.is-menu-open) .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation__submenu-container {
