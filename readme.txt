@@ -4,7 +4,7 @@ Theme URI: https://themezee.com/themes/smartcube/
 Contributors: themezee
 Tags: full-site-editing, template-editing, one-column, blog, news, custom-background, custom-logo, custom-header, custom-menu, grid-layout, entertainment, editor-style, block-styles, block-patterns, rtl-language-support, featured-images, flexible-header, custom-colors, full-width-template, sticky-post, threaded-comments, translation-ready, theme-options, two-columns, three-columns
 Requires at least: 6.0
-Tested up to: 6.1
+Tested up to: 6.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,10 @@ For more information about Smartcube please go to https://themezee.com/themes/sm
 3. Go to https://themezee.com/en/docs/smartcube-documentation/ for a guide on how to use and customize this theme.
 
 == Changelog ==
+
+
+= 1.0.3 - 2023-08-15 =
+* fix spacing of separator block in header template part
 
 = 1.0.2 - 2022-11-03 =
 * fixed styling of main navigation for WordPress 6.1
